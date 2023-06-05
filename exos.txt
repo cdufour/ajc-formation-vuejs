@@ -1,0 +1,8 @@
+*** exos **
+
+1.
+Ajouter un bouton "Reset" dans le template du composant Counter
+Un click sur ce bouton: 
+- remettra le compteur à 0
+- retirera du DOM le paragraphe "DANGER"
+- redonnera à la variable title sa valeur initiale
