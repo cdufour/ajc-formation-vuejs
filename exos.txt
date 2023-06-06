@@ -6,3 +6,24 @@ Un click sur ce bouton:
 - remettra le compteur à 0
 - retirera du DOM le paragraphe "DANGER"
 - redonnera à la variable title sa valeur initiale
+
+2.
+Créer un composant "TextCount" qui affichera un input de type Text
+et affichera à la saisie le nombre de caractères déjà saisis par rapport à
+une longueur maximale. Exemple: 56/100
+
+Option: lorsque 75% de la longueur limite est dépassée, afficher
+le compteur de caractères en rouge
+Option: bloquer la saisie sur la longueur maximale est atteinte
+
+3.
+Créer un composant "TeamForm" qui permettra de saisir:
+- le nom d'un club de foot
+- son pays d'appartenance
+- le nombre de championnats qu'elle a remportés
+
+Un bouton "Enregistrer" mettra à jour le state de ce composant à ajoutant
+cette équipe dans un tableau "teams" (clé du state)
+
+Lister le nom des équipes sous le formulaire d'enregistrer sous forme d'un
+tableau html

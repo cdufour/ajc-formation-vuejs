@@ -2,19 +2,26 @@
 import HelloWorld from './components/HelloWorld.vue'
 import Counter from './components/Counter.vue'
 import Teams from './components/Teams.vue'
+import FormDemo from './components/FormDemo.vue'
+import TeamList from './components/TeamList.vue'
+
 </script>
 
 <template>
-  <header>
-    <div class="wrapper">
-      <HelloWorld />
-    </div>
-  </header>
 
-  <main>
-      <Counter />
-      <Teams />
-  </main>
+    <header>
+      <div class="wrapper">
+        <HelloWorld />
+      </div>
+    </header>
+
+    <main>
+      <!-- <Counter />
+      <Teams /> 
+      <FormDemo />-->
+      <TeamList />
+    </main>
+
 </template>
 
 <style scoped>

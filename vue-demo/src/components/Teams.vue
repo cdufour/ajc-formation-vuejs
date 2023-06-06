@@ -41,6 +41,11 @@ export default {
         },
         getBestTeamName() {
             return 'Juventus';
+        },
+        add(a, b) {
+            let s = a + b;
+            console.log(s);
+            return s;
         }
     }
 }
@@ -78,7 +83,8 @@ export default {
         
         
         <footer :class="{ space: false }">
-            <button @click="visible = !visible; classes1.underline = !classes1.underline">
+            <button @click="add(4,2)">Add</button>
+            <button @click="(event) => { visible = !visible; classes1.underline = !classes1.underline; console.log(event.target.tagName) }">
                 {{ visible ? 'Masquer' : 'Afficher' }} le contenu
             </button>
             <template v-if="visible">
