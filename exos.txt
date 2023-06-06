@@ -8,13 +8,13 @@ Un click sur ce bouton:
 - redonnera à la variable title sa valeur initiale
 
 2.
-Créer un composant "TextCount" qui affichera un input de type Text
+Créer un composant "TextLimit" qui affichera un Textarea
 et affichera à la saisie le nombre de caractères déjà saisis par rapport à
 une longueur maximale. Exemple: 56/100
 
 Option: lorsque 75% de la longueur limite est dépassée, afficher
 le compteur de caractères en rouge
-Option: bloquer la saisie sur la longueur maximale est atteinte
+Option: bloquer la saisie quand la longueur maximale est atteinte
 
 3.
 Créer un composant "TeamForm" qui permettra de saisir:
