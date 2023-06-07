@@ -1,0 +1,8 @@
+{
+    "teams": [
+        { "id": 1, "name": "Juventus", "scudetti": 36 },
+        { "id": 2, "name": "Napoli", "scudetti": 3 },
+        { "id": 3, "name": "Atalanta Bergamo", "scudetti": 0 },
+        { "id": 4, "name": "Milan AC", "scudetti": 19 }
+    ]
+}

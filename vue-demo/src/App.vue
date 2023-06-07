@@ -4,6 +4,7 @@ import Counter from './components/Counter.vue'
 import Teams from './components/Teams.vue'
 import FormDemo from './components/FormDemo.vue'
 import TeamList from './components/TeamList.vue'
+import TextLimit from './components/exos/TextLimit.vue'
 
 </script>
 
@@ -20,6 +21,7 @@ import TeamList from './components/TeamList.vue'
       <Teams /> 
       <FormDemo />-->
       <TeamList />
+      <!-- <TextLimit :limit="100" /> -->
     </main>
 
 </template>
