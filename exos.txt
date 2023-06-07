@@ -33,4 +33,5 @@ Créer un composant "TeamStars".
 Ce composant prendra en entrée une propriété "scudetti".
 Il affichera l'icône d'une étoile par "tranche" de 10 scudetti.
 Exemple: pour la Juventus (36 scudetti), le composant affichera 3 étoiles
-Utiliser ce compoant en tant qu'enfant de TeamDetail
+Utiliser ce composant en tant qu'enfant de TeamDetail
+Tip: mettre l'icône dans le dossier "public"
