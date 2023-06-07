@@ -14,6 +14,7 @@
 
 <template>
     <div>
-        <img v-for="n in stars" :key="n" width="16" src="star-icon.png" alt="start" />
+        <slot />
+        <img v-for="n in stars" :key="n" width="16" src="images/star-icon.png" alt="start" />
     </div>
 </template>

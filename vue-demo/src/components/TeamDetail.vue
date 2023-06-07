@@ -15,8 +15,11 @@ export default {
 <template>
     <div>
         <h3>{{ team.name }}</h3>
-        <p>Nombre de titres: {{ team.scudetti }}</p>
-        <TeamStars :scudetti="team.scudetti" />
+
+        <TeamStars :scudetti="team.scudetti">
+            <p>Nombre de titres: {{ team.scudetti }}</p>
+        </TeamStars>
+        
         <input type="hidden" :value="demo" />
         <button @click="$emit('like', team)">Like</button>
     </div>

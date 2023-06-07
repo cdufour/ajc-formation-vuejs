@@ -10,3 +10,5 @@
 
 
 ## Liens utiles
+- [Vue Router](https://router.vuejs.org/)
+- [Pinia](https://pinia.vuejs.org/)
